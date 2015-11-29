@@ -1,32 +1,43 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+UnityGenerated/
+Library/
 
-# Precompiled Headers
-*.gch
-*.pch
+# ================ #
+# 3rd Party Assets #
+# ================ #
+TK2DROOT/
+Daikon Forge/
+ObjectPool/
+BloodSplat/
+FreeStuff/
+SoundFX/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
